@@ -19,10 +19,10 @@ function comptDown(){
     let minutes= Math.floor(totalSecond / 60) % 60;
     let seconde= Math.floor(totalSecond) % 60;
 
-    daysdata.innerHTML= days;
-    hoursdata.innerHTML=formatTime(hours);
-    mindata.innerHTML=formatTime(minutes);
-    secdata.innerHTML=formatTime(seconde);
+    daysdata.innerHTML = days;
+    hoursdata.innerHTML =formatTime(hours);
+    mindata.innerHTML = formatTime(minutes);
+    secdata.innerHTML = formatTime(seconde);
 }
 function formatTime(time){
     return time < 10 ? (`0${time}`): time;
