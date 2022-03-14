@@ -2,8 +2,8 @@
 let daysdata = document.getElementById('days');
 let hoursdata = document.getElementById('hours');
 let mindata = document.getElementById('min');
-let secdata=document.getElementById('sec');
-let autocunt=newsYears;
+let secdata = document.getElementById('sec');
+let autocunt = newsYears;
 
 
 let newYears='1 Jan 2022';
