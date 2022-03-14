@@ -1,5 +1,5 @@
 
-let daysdata=document.getElementById('days');
+let daysdata = document.getElementById('days');
 let hoursdata=document.getElementById('hours');
 let mindata=document.getElementById('min');
 let secdata=document.getElementById('sec');
